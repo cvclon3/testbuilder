@@ -1,0 +1,121 @@
+*,
+*:before,
+*:after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* nav */
+.nav {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 48px;
+    width: 700px;
+    background-color: #FFFFFF;
+}
+
+.block__nav {
+    min-height: 48px;
+}
+
+.beta {
+    position: fixed;
+    text-align: center;
+    font-size: 14px;
+}
+
+.mode {
+    position: relative;
+    float: right;
+    width: 100px;
+    height: 48px;
+    
+    background-color: #0D1117;
+    border: none;
+    color: #f0efe0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+/* main */
+.main {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 700px;
+    height: 100%;
+    min-height: 100vh;
+
+    background-color: #f0efe0;
+}
+
+.input {
+    width: 100px;
+    padding: 5px;
+    float: left;
+    margin-left: 70px;
+}
+
+
+.submit {
+    position: relative;
+    width: 100px;
+    height: 48px;
+
+    background-color: #0D1117;
+    border: none;
+    color: #f0efe0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.output {
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+/* text */
+.task {
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.answer {
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: 10px;
+
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.result {
+    text-align: center;
+    padding-bottom: 10px;
+
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.res {
+    text-align: left;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}

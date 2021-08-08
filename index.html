@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Document</title>
+
+</head>
+<body>
+
+<div class="main" id="main">
+
+    <div class="nav" id="nav">
+        <!-- <p class="text beta">beta 0.1</p> -->
+        <button class="mode" id="mode" onclick="mode()">Dark</button>
+    </div>
+
+    <div class="block__nav"></div>
+
+    
+    <div class="test">
+        <!--BLOCK TASK begin-->
+        <form class="form" action="index.html" method="post">
+            <p class="text task">task</p> <!--QUESTION-->
+
+            <p class="text answer">answer 1</p> <!--ANSWER 1-->
+            <p class="text answer">answer 2</p> <!--ANSWER 2-->
+            <p class="text answer">answer 3</p> <!--ANSWER 3-->
+            <p class="text answer">answer 4</p> <!--ANSWER 4-->
+            <p class="text answer">answer 5</p> <!--ANSWER 5-->
+
+            <input class="input" type="text" name="array[]" value="" /><br>
+        </form>
+        <br>
+        <!--BLOCK TASK end-->
+
+        <form class="form" action="index.html" method="post">
+            <p class="text task">task</p>
+
+            <p class="text answer">answer 1</p>
+            <p class="text answer">answer 2</p>
+            <p class="text answer">answer 3</p>
+            <p class="text answer">answer 4</p>
+            <p class="text answer">answer 5</p>
+
+            <input class="input" type="text" name="array[]" value="" /><br>
+        </form>
+        <br>
+
+        <!--PASTE HERE \/ \/ \/-->
+
+    </div>
+
+    <div name="submit">
+        <button class="submit" id="submit" type="button" name="button" onclick="check()">
+                Submit
+        </button>
+    </div>
+
+
+    <div class="output">
+        <div class="text result" id="result"></div>
+        <div class="text res" id="right"></div>
+        <div class="text res" id="mistake"></div>
+    </div>
+    
+</div> <!--main-->
+
+<div class="footer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
