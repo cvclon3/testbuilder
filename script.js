@@ -1,4 +1,4 @@
-let answer = [1, 2]; /*INPUT ANSWER IN ARRAY*/
+let answer = [1, 4, 4, 3, 1, 3, 5, 1, 4, 1, 3, 4, "simplicity", "kindness", "valuable", "expextation"]; /*INPUT ANSWER IN ARRAY*/
 
 
 /*DON'T TOUCH*/
